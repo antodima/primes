@@ -8,7 +8,7 @@ CXXFLAGS = -g # -DNO_DEFAULT_MAPPING -DBLOCKING_MODE -DFF_BOUNDED_BUFFER
 LDFLAGS = -pthread
 OPTFLAGS = -O3 -finline-functions -DNDEBUG
 
-TARGETS = primes
+TARGETS = primes mw_primes pf_primes
 
 .PHONY: all clean cleanall
 .SUFFIXES: .cpp
